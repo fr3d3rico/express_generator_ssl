@@ -1,0 +1,4 @@
+node_modules/
+bin/private.key
+bin/private.crt
+bin/certificate.pem
