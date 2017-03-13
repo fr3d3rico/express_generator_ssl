@@ -7,8 +7,11 @@ This example use Express site (https://expressjs.com/en/starter/generator.html) 
 ## Prerequisites
 
 1 - Install Node.js and update npm (https://docs.npmjs.com/getting-started/installing-node)
+
 2 - Install OpenSSL(https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/)
+
 3 - Install express-generator (https://expressjs.com/en/starter/generator.html)
+
 4 - Create private.key and certificate.pem with OpenSSL... how?
 
 After configured OpenSSL and created environment variables, execute openssl.exe and then:
@@ -22,6 +25,7 @@ and done with(windows command)...
 $ type private.crt private.key > certificate.pem
 
 5 - All files generated on step 4 above must be addressed to bin/ directory.
+
 6 - Please, open /bin/www file to learn how config private.key and pem file, and how create https server to respond on 3443 https port.
 
 ## Run
